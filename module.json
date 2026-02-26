@@ -1,0 +1,199 @@
+{
+	"id": "seer",
+	"title": "Seer for PF2e",
+	"version": "1.0.0",
+	"compatibility": {
+    		"minimum": "12",
+    		"verified": "12"
+  	},
+	"relationships": {
+   		"systems": [
+      			{
+        			"id": "pf2e",
+        			"type": "system",
+        			"compatibility": {}
+      			}
+    		]
+  	},
+	"description": "The Seer is a class archetype for the PF2e Remaster Oracle which aims to fully reintegrate the mechanics which were abandoned in the remaster, such as the curse granting a benefit along with it's detriments.",
+	"authors": [
+		{
+			"name": "Krsnik",
+			"flags": {}
+		}
+	],
+	"packs": [
+		{
+			"label": "Actions",
+			"type": "Item",
+			"name": "seer-actions",
+			"path": "./packs/actions",
+			"system": "pf2e",
+			"package": "seer",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Class Archetype",
+			"type": "Item",
+			"name": "seer-class-archetype",
+			"path": "./packs/class-archetype",
+			"system": "pf2e",
+			"package": "seer",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Effects",
+			"type": "Item",
+			"name": "seer-effects",
+			"path": "./packs/effects",
+			"system": "pf2e",
+			"package": "seer",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Equipment",
+			"type": "Item",
+			"name": "seer-equipment",
+			"path": "./packs/equipment",
+			"system": "pf2e",
+			"package": "seer",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Feats",
+			"type": "Item",
+			"name": "seer-feats",
+			"path": "./packs/feats",
+			"system": "pf2e",
+			"package": "seer",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Features",
+			"type": "Item",
+			"name": "seer-features",
+			"path": "./packs/features",
+			"system": "pf2e",
+			"package": "seer",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Notes",
+			"type": "JournalEntry",
+			"name": "seer-notes",
+			"path": "./packs/notes",
+			"system": "pf2e",
+			"package": "seer",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Macros",
+			"type": "Macro",
+			"name": "seer-macros",
+			"path": "./packs/macros",
+			"system": "pf2e",
+			"package": "seer",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		},
+		{
+			"label": "Spells",
+			"type": "Item",
+			"name": "seer-spells",
+			"path": "./packs/spells",
+			"system": "pf2e",
+			"package": "seer",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			}
+		}
+	],
+	"packFolders": [
+		{
+			"name": "Seer for PF2e",
+			"sorting": "m",
+			"packs": [
+				"seer-actions",
+				"seer-class-archetype",
+				"seer-effects",
+				"seer-equipment",
+				"seer-feats",
+				"seer-features",
+				"seer-macros",
+				"seer-notes",
+				"seer-spells"
+			]
+		}
+	],
+	"flags": {
+		"seer": {
+			"pf2e-homebrew": {
+				"classTraits": {
+					"seer": {
+						"label": "Seer",
+						"description": "A trait given to actions, effects, feats, items and spells exclusive to the seer oracle class archetype."
+					}
+				},
+				"featTraits": {
+					"seer": {
+						"label": "Seer",
+						"description": "A trait given to actions, effects, feats, items and spells exclusive to the seer oracle class archetype."
+					}
+				},
+				"spellTraits": {
+					"seer": {
+						"label": "Seer",
+						"description": "A trait given to actions, effects, feats, items and spells exclusive to the seer oracle class archetype."
+					}
+				},
+				"weaponTraits": {
+					"seer": {
+						"label": "Seer",
+						"description": "A trait given to actions, effects, feats, items and spells exclusive to the seer oracle class archetype."
+					}
+				},
+				"shieldTraits": {
+					"seer": {
+						"label": "Seer",
+						"description": "A trait given to actions, effects, feats, items and spells exclusive to the seer oracle class archetype."
+					}
+				},
+				"equipmentTraits": {
+					"seer": {
+						"label": "Seer",
+						"description": "A trait given to actions, effects, feats, items and spells exclusive to the seer oracle class archetype."
+					}
+				}
+			}
+		}
+	},
+	"url": "https://github.com/kritikalKreznik/arcana-world",
+	"manifest": "https://raw.githubusercontent.com/kritikalKreznik/arcana-world/master/module.json",
+	"download": "https://github.com/kritikalKreznik/arcana-world/archive/refs/heads/main.zip",
+	"esmodules": [
+	]
+}
