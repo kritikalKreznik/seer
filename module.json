@@ -191,9 +191,9 @@
 			}
 		}
 	},
-	"url": "https://github.com/kritikalKreznik/arcana-world",
-	"manifest": "https://raw.githubusercontent.com/kritikalKreznik/arcana-world/master/module.json",
-	"download": "https://github.com/kritikalKreznik/arcana-world/archive/refs/heads/main.zip",
+	"url": "https://github.com/kritikalKreznik/seer",
+	"manifest": "https://raw.githubusercontent.com/kritikalKreznik/seer/master/module.json",
+	"download": "https://github.com/kritikalKreznik/seer/archive/refs/heads/main.zip",
 	"esmodules": [
 	]
 }
