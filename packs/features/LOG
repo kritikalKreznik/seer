@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+2026/02/08-14:06:13.787 1aa4c Recovering log #8
+2026/02/08-14:06:13.787 1aa4c Level-0 table #10: started
+2026/02/08-14:06:13.789 1aa4c Level-0 table #10: 10876 bytes OK
+2026/02/08-14:06:13.794 1aa4c Delete type=0 #8
+2026/02/08-14:06:13.794 1aa4c Delete type=3 #6
+=======
+2026/04/07-12:36:06.840 53ac Recovering log #18
+2026/04/07-12:36:06.840 53ac Level-0 table #20: started
+2026/04/07-12:36:06.844 53ac Level-0 table #20: 33669 bytes OK
+2026/04/07-12:36:06.849 53ac Delete type=0 #18
+2026/04/07-12:36:06.849 53ac Delete type=3 #17
+2026/04/07-12:36:06.849 69e0 Compacting 4@0 + 0@1 files
+2026/04/07-12:36:06.863 69e0 Generated table #22@0: 19 keys, 10374 bytes
+2026/04/07-12:36:06.863 69e0 Compacted 4@0 + 0@1 files => 10374 bytes
+2026/04/07-12:36:06.865 69e0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/04/07-12:36:06.865 69e0 Delete type=2 #7
+2026/04/07-12:36:06.865 69e0 Delete type=2 #10
+2026/04/07-12:36:06.865 69e0 Delete type=2 #15
+2026/04/07-12:36:06.866 69e0 Delete type=2 #20
+>>>>>>> d562cc2 (added changes)
